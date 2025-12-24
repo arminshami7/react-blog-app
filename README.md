@@ -1,20 +1,20 @@
-# My Personal Portfolio Website
+# My Blog Website
 
 <img width="1865" height="1030" alt="Image" src="https://github.com/user-attachments/assets/6f854705-0e59-49b7-9c1b-0cff7660a250" />
 
-> A clean, modern, and fully responsive personal portfolio website built from scratch with React, Vite, and Tailwind CSS. This project showcases my skills, my work, and serves as my primary point of contact for potential clients and employers.
+> > A modern blog platform built with React and Tailwind CSS, fetching and displaying posts from a placeholder API.
 
-**Live Demo:** **Live Demo:** [react-blog-app11.netlify.app](https://react-blog-app11.netlify.app/)
+**Live Demo:** **Live Demo:** [arminshami7.github.io/react-blog-app](https://arminshami7.github.io/react-blog-app/)
 
 ---
 
 ## 🚀 Features
 
--   **Fully Responsive Design:** Looks great on all devices, from mobile phones to desktops.
--   **Single Page Application (SPA):** A smooth, fast, and seamless user experience with no page reloads.
--   **Smooth Scrolling:** Clean navigation between different sections of the page.
--   **Interactive UI:** Subtle hover effects and transitions to enhance user experience.
--   **Component-Based Architecture:** Built with reusable and maintainable React components.
+-   **Fetches & Displays Posts:** Retrieves a list of blog posts from a placeholder API on page load.
+-   **Modern Card-Based UI:** A clean and responsive grid layout built with Tailwind CSS.
+-   **Interactive Elements:** Smooth hover effects on post cards to improve user experience.
+-   **Detailed Post View:** Each post has its own dedicated page, accessible via dynamic routing (`/posts/:id`).
+-   **Component Reusability:** Built with a reusable `PostItem` component to keep the code clean and maintainable.
 
 ---
 
@@ -29,7 +29,8 @@ This project was built using the following technologies:
 -   **Routing:**
     -   [**React Router**](https://reactrouter.com/): For declarative routing in a single-page application.
 -   **Deployment:**
-    -   [**Netlify**](https://www.netlify.com/): For continuous deployment and hosting.
+    -   [**GitHub Pages**](https://pages.github.com/): For hosting the static site.
+    -   [**GitHub Actions**](https://github.com/features/actions): For automating the build and deployment process (CI/CD).```
 -   **Version Control:**
     -   [**Git & GitHub**](https://github.com/arminshami7/react-blog-app): For source code management.
 
@@ -37,12 +38,11 @@ This project was built using the following technologies:
 
 ## 📝 What I Learned
 
-Building this portfolio was a fantastic learning experience. Here are some of the key takeaways:
+This project was a great opportunity to solidify the core concepts I learned from my first project. Key takeaways include:
 
--   **Deepened my understanding of Tailwind CSS:** I moved from basic utility classes to building complex, responsive layouts and custom components.
--   **Reinforced React fundamentals:** I solidified my knowledge of component architecture, props, and state management.
--   **Gained experience in project planning:** From initial wireframing to final deployment, I managed the entire project lifecycle.
--   **Learned the importance of a professional online presence** for a developer.
+-   **Reinforcing React Router skills:** I practiced creating dynamic routes (`/posts/:id`) and handling navigation between a list view and a detail view.
+-   **First practical experience with Tailwind CSS:** I moved from theory to practice, building a fully responsive layout and custom card components using utility-first classes.
+-   **Component Reusability:** I created a reusable `PostItem` component to keep the code clean and maintainable (DRY principle).
 
 ---
 
@@ -59,7 +59,7 @@ To get a local copy up and running, follow these simple steps.
 
 1.  Clone the repo
     ```sh
-    git clone https://github.com/arminshami7/react-blog-app
+    [**Git & GitHub**](https://github.com/arminshami7/react-blog-app)
     ```
 2.  Install NPM packages
     ```sh
