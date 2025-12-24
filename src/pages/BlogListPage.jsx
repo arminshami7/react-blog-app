@@ -40,7 +40,7 @@ if (error) {
   return (
       <div className="blog-list-page"> {/* <-- یک کلاس به div اصلی بده */}
       <div className="container"> 
-      <h1>Blog Posts</h1>
+      <h1 className="m-8 text-2xl text-gray-400 text-center">Blog Posts</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"> {/* <-- این کلاس برای چیدمان کارت‌هاست */}
         {posts.map(post => (
           <PostItem key={post.id} post={post} />
