@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // <-- این خط رو مطمئن شو که وجود داره
-  ],
+ 
+content: [
+  "./index.html",
+  "./src/**/*.{js,ts,jsx,tsx}", // <-- مهم‌ترین قسمت
+],
   theme: {
     extend: {},
   },
